@@ -1,0 +1,21 @@
+.stores{
+  &__wrapper {cursor: pointer;}
+  &__wrapper button{
+    margin-top: 15px;
+    font-size: 2.5rem;
+    position: relative;
+  }
+  &__wrapper span{
+    font-size: 2.5rem;
+    position: absolute;
+    margin-left: 10px;
+    top: 10px;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+
+  .stores__wrapper:hover span{
+    margin-left: 20px;
+  }
+}

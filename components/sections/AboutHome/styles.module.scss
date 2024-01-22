@@ -1,0 +1,45 @@
+.home{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home h2{
+  color: var(--background);
+  font-size: 5.25rem;
+  font-weight: 700;
+}
+
+.home__img img{height: auto}
+
+.home span{
+  color: var(--background);
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.home__span_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home__img{
+  display: flex;
+  position: absolute;
+  gap: 5px
+}
+
+.horizontal{
+  flex-direction: row;
+  width: 150px;
+  height: auto;
+}
+
+.vertical{
+  flex-direction: column;
+  width: 150px;
+}

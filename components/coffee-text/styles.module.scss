@@ -1,0 +1,12 @@
+.coffee_text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.coffee_text span{
+  color: var(--color);
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 500;
+}

@@ -1,0 +1,16 @@
+.slide_back, .slide_front{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+.slide_back{
+  background-color: #1C2223;
+}
+
+.slide_front{
+  background-color: #607274;
+}

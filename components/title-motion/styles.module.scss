@@ -1,0 +1,21 @@
+.slider{
+  position: absolute;
+  bottom: 0;
+  // width: 100%;
+  &__wrapper{
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    letter-spacing: 5px;
+  }
+  span{
+    font-size: 10rem;
+    font-weight: 700;
+    line-height: .8;
+    font-style: italic;
+  }
+  span:nth-of-type(2){
+    position: absolute;
+    left: 100%
+  }
+}

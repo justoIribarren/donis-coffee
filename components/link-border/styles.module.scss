@@ -1,0 +1,13 @@
+
+.link{
+  a, button, h1{padding: 0 2px}
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+
+  &__border_bottom{
+    width: 0%;
+    height: 2px;
+    background-color: var(--font);
+  }
+}

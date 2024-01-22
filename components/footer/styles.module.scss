@@ -1,0 +1,57 @@
+.footer{
+  min-height: 100vh;
+  padding: 50px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+
+  h2{    font-style: normal}
+  &__details, &__social{
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+  }
+  
+  
+  &__details {
+    gap: 100px;
+  }
+  &__details button{
+    font-size: 2.25rem;
+    font-weight: 500;
+  }
+  &__details span{
+    margin-left: 15px;
+    color: var(--color);
+    border: none;
+    font-size: 1.25rem;
+  }
+  
+  &__social{
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  &__link{
+    display: inline;
+    // margin-left: 10px;
+    font-style: italic;
+    position: relative;
+
+    span{
+      transform: translate(15px, 20px);
+      font-size: 6rem;
+      line-height: .4;
+    }
+  }
+}
+
+
+
+@media (hover: hover) and (pointer: fine) {
+  .footer__link:hover span{
+    transform: translate(30px, 20px);
+  }
+}
